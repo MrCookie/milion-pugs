@@ -1,0 +1,7 @@
+// @NOTE: All global-scoped css vars here
+
+$main: black;
+
+@use './global.scss';
+
+// @NOTE: Import design system (typography, spacing etc)
