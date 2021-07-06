@@ -1,0 +1,23 @@
+.imageWrapper {
+  position: relative;
+  height: 80vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 800px;
+  margin: auto;
+  .description-overlay {
+    position: absolute;
+    overflow: auto;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    .description {
+      font-size: 13px;
+      color: white;
+      font-weight: bold;
+      text-align: left;
+    }
+  }
+}
