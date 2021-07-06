@@ -27,7 +27,7 @@ test('ImageViewer', async ({ page }) => {
   test('First image', async () => {
     const firstImage = await await page.$('.imageWrapper');
     const imageUrl = await firstImage?.getAttribute('style');
-    expect(imageUrl).toEqual(`background-image: url("1")`);
+    expect(imageUrl).toEqual(`background-image: url("3")`);
   });
 
   await page.click('button#nextBtn');
