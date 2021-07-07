@@ -14,3 +14,4 @@ Użyłem CRA z templatem typescripta, od siebie dodałem:
 - cleaup: W kodzie jest dużo zaimportowanych i nieużywanych modułów
 - UI: Brzydkie jak noc, ale za to responsywne :) Niektóre zdjęcia mają niestandardową rozdzielczość i przez `background-size: cover` czasami są ucinane. Najłatwiej zfixować to przez użycie img zamiast diva z `background-size` i przerzucenie tekstu obok zdjęcia.
 - lazy-loading Route'ów
+- lazy-loading zdjęć + powinny się renderować w odwrotnej kolejności, najnowsze na górze
